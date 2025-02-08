@@ -1,0 +1,1256 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.inicio{
+    background-image:url(imgmineracao/billy-freeman-tWptj-b6IqM-unsplash\ \(1\).jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:100vh;
+    border-bottom:black solid 10px;
+}
+.topo{
+    width:100%;
+    display:flex;
+    background-color:#717C89;
+    border-bottom:black solid 5px;
+    opacity:90%;
+    height:20vh;
+}
+.topo .menu{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.topo img{
+    width:380px;
+    margin:0px 80px 0px 40px;
+    
+}
+#img{
+    border-right:black solid 5px;
+}
+.topo .nome{
+    color:black;
+    font-size:28px;
+    padding:5px;
+    border-radius:10%;
+}
+.topo .nome:hover{
+    padding:5px;
+    border-radius:10%;
+    color:white;
+    font-size:32px;
+    text-decoration:underline 4px #00BF63;
+}
+.inicio #chamada #cima{
+    width:50%;
+}
+.inicio #chamada{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-template-rows:repeat(3,50px);
+    margin-top:22%;
+    margin-left:3%;
+    font-size:20px;
+    width:90%;
+    color:white;
+    gap:20px;
+}
+.inicio #chamada #preto{
+    color:black;
+    text-decoration:underline white 4px;
+}
+.inicio #chamada #verde{
+    color:#00BF63;
+    text-decoration:underline white 4px;
+}
+#botao{
+    background-color:#00BF63;
+    padding:5px;
+    border:black solid 2px;
+    border-radius:10px;
+    grid-column:5/6;
+    grid-row:2/3;
+    box-shadow:black 2px 2px 2px;
+    color:white;
+}
+#botao:hover{
+    background-color:#006032;
+}
+#botao a{
+    text-shadow:black 1px 1px 1px;
+    margin:5px;
+    color:white;
+    text-decoration:none;
+    font-size:32px;
+    font-weight:bold;
+}
+#botao a:hover{
+    color:black;
+}
+#cima{
+    grid-column:1/7;
+    grid-row:1/2;
+}
+#baixo{
+    grid-column:1/7;
+    grid-row:2/3;
+}
+
+.minerios{
+    background-color:#8D8C8C;
+    padding:20px;
+    height:70vh;
+    border-bottom:#00BF63 solid 10px;
+}
+.minerios .esmeraldas{
+    width:32px;
+    height:32px;
+}
+.minerios #titulo{
+    display:flex;
+    background-color:white;
+    width:227px;
+    border-top:black solid 5px;
+    border-bottom:black solid 5px;
+    border-radius:10px;
+}
+.minerios #titulo h1{
+    color:#006032;
+    font-weight:bold;
+}
+.minerios .conteudo{
+    display:flex;
+    justify-content:space-evenly;
+}
+.minerios .conteudo article{
+    display:grid;
+    place-items:center;
+    margin:50px;
+    background-color:#006032;
+    border-radius:100%;
+    width:20%;
+    height:35vh;
+    border:black solid 5px;
+}
+.minerios .conteudo article button a{
+    color:black;
+    text-decoration:none;
+    font-size:28px;
+}
+.minerios .conteudo article button a:hover{
+    color:white;
+    text-decoration:underline white dotted;
+}
+.minerios .conteudo article button{
+    display:grid;
+    align-items:center;
+    box-shadow:black 2px 2px 2px;
+    background-color:white;
+    
+    border-radius:10px;
+    padding:5px;
+    margin-right:3%;
+    margin-left:2%;
+    margin-top:100%;
+}
+.minerios .conteudo article button:hover{
+    background-color:black;
+    
+}
+#ferro{
+    background-image:url(imgmineracao/FERRO.png), url(imgmineracao/GRINALDAS.webp);
+    background-position:center,center bottom;
+    background-size:80%, 110%;
+    background-repeat:no-repeat;
+}
+#magnesita{
+    background-image:url(imgmineracao/MAGNESITA.png), url(imgmineracao/GRINALDAS.webp);
+    background-position:center,center bottom;
+    background-size:80%, 110%;
+    background-repeat:no-repeat;
+}
+#carvao{
+    background-image:url(imgmineracao/carvao.png), url(imgmineracao/GRINALDAS.webp);
+    background-position:center,center bottom;
+    background-size:75%, 110%;
+    background-repeat:no-repeat;
+}
+#manganes{
+    background-image:url(imgmineracao/MANGANES.webp), url(imgmineracao/GRINALDAS.webp);
+    background-position:center,center bottom;
+    background-size:75%, 110%;
+    background-repeat:no-repeat;
+}
+.tudohist{
+    background-image:url(imgmineracao/historiafundo.avif);
+    background-position:center right;
+    background-size:contain;
+    background-repeat:repeat;
+    padding:10px;
+    border-bottom:#00BF63 solid 10px;
+
+}
+.historia{
+    display:flex; 
+    justify-content:space-evenly;
+    height:70vh;
+    padding:20px;
+    gap:20px;
+}
+.tudohist #picareta{
+    height:32px;
+    width:32px;
+}
+.tudohist #titulo{
+    display:flex;
+    max-height:64px;
+    color:white;
+    background-color:#717C89;
+    border-radius:10px;
+    padding:10px;
+    border:white 2px dashed;
+    width:12vw;
+}
+.historia #texto{
+    color:white;
+    margin-right:12%;
+    text-align:justify;
+    font-size:28px;
+    background-color:#006032;
+    border-radius:10px;
+    padding:15px;
+    border:white 2px solid;
+    height:58vh;
+    width:45%;
+}
+.historia #foto{
+    border:#006032 8px solid;
+    border-radius:10px;
+    margin-left:0;
+    box-shadow:white 2px 2px 10px;
+    height:40vh;
+}
+ #botao2{
+    border-radius:20px;
+    background-color:#717C89;
+    color:white;
+    width:120px;
+    margin-top:20%;
+    height:38px;
+    padding:10px;
+    border:white dashed 2px;
+    margin-right:5%;
+}
+ #botao2:hover{
+    background-color:white;
+    border:#717C89 solid 2px;
+   
+}
+ #botao2 a{
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+
+}
+ #botao2 a:hover{
+    color:black;
+}
+.meio{
+    display:flex;
+    justify-content:center;
+}
+.contato #backtitulo{
+    display:flex;
+    background-color:#00BF63;
+    height:64px;
+    padding:10px;
+    gap:10px;
+    border-radius:10px;
+    border:black 4px solid;
+    margin:20px;
+}
+.contato #carrinho{
+    width:32px;
+    height:32px;
+}
+.contato #titulo{
+    color:white;
+    font-weight:bold;
+}
+.contato .topo2{
+    display:flex;
+    justify-content:space-between;
+    background-color:#8D8C8C;
+    opacity:80%;
+}
+.contato #logo{
+    width:300px;
+    
+}
+.contato{
+    height:100vh;
+    background-image:url(imgmineracao/contato.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.meio #aviso{
+    text-align:center;
+    width:100%;
+    background-color:#8D8C8C;
+    opacity:80%;
+    padding:90px;
+    height:70vh;
+}
+.meio #aviso em{
+    font-size:80px;
+    text-decoration:underline dashed 4px black;
+    font-weight:bold;
+}
+.meio #aviso h2{
+    margin-top:10px;
+    font-size:70px;
+    color:white;
+}
+.meio #aviso strong{
+    color:#006032;
+    text-decoration:underline;
+}
+.rodape{
+    width:100%;
+    height:220px;
+    background-color:#00BF63;
+    border-top:#006032 10px solid;
+    padding:10px;
+}
+#titulorodape{
+    background-color:#006032;
+    font-size:40px;
+    font-weight:bold;
+    color:white;
+    border-top:2px black solid;
+    text-align:center;
+}
+.icones{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.rodape #icone1{
+    background-image:url(imgmineracao/GMAIL.png);
+    background-size:80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:8%;
+    height:16vh;
+    border-radius:100%;
+    background-color:#006032;
+}
+.rodape #icone2{
+    background-image:url(imgmineracao/TELEFONE.webp);
+    background-size:80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:8%;
+    height:16vh;
+    border-radius:100%;
+    background-color:#006032;
+}
+.rodape #icone3{
+    background-image:url(imgmineracao/instagram.webp);
+    background-size:80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:8%;
+    height:16vh;
+    border-radius:100%;
+    background-color:#006032;
+}
+.rodape #icone4{
+    background-image:url(imgmineracao/WhatsApp.svg.webp);
+    background-size:80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:8%;
+    height:16vh;
+    border-radius:100%;
+    background-color:#006032;
+}
+.rodape .rodanome{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.rodape .rodanome h1:hover{
+    color:white;
+    text-decoration:underline #8D8C8C solid;
+}
+#gmail{
+    margin-left:1%;
+}
+#telefone{
+    margin-left:2%;
+}
+#instagram{
+    margin-left:1%;
+}
+/*Responsividade laptop (1024px)*/
+@media(width<=1024px){
+    .inicio{
+            height:56vh;
+            background-image:url(imgmineracao/billy-freeman-tWptj-b6IqM-unsplash\ \(1\).jpg);
+            background-size:cover;
+            background-position:left;
+            background-repeat:no-repeat;
+            border-bottom:black solid 10px;
+    }
+    .topo{
+            width:100vw;
+            opacity:90%;
+            height:12vh;
+    }
+    .topo .menu{
+            width:70vw;
+    }
+    .topo img{
+            width:22vw;
+            margin:5px;
+            margin-top:20px;   
+    }
+    .topo .nome h1{
+        font-size:28px;
+    }
+    .topo .nome h1:hover{
+        padding:5px;
+        border-radius:10%;
+        font-size:22px;
+    }
+    .inicio #chamada{
+        display:flex;
+    }
+    .inicio #chamada h1{
+        margin-top:15%;
+        font-size:32px;
+        width:40vw;
+        color:white;
+    }
+    #botao{
+        padding:5px;
+        border-radius:10px;
+        margin-top:18%;
+        margin-right:5%;
+        margin-left:10vh;
+    }
+    #botao a{
+        font-size:20px;
+    }
+    .minerios{
+        height:65vh;
+        width:100vw;
+    }
+    .minerios .conteudo{
+        display:flex;
+        justify-content:space-evenly;
+        flex-wrap:wrap;
+    }
+    .minerios .esmeraldas{
+        width:32px;
+        height:32px;
+    }
+    .minerios #titulo{
+        display:flex;
+        width:227px;
+    }
+    .minerios #titulo h1{
+        color:#006032;
+        font-weight:bold;
+        font-size:32px;
+    }
+    .minerios .conteudo article{
+        width:20%;
+        height:18vh;
+        margin-left:120px;
+        margin-right:120px;
+    }
+    .minerios .conteudo article button a{
+        font-size:20px;
+    }
+    .minerios .conteudo article button{ 
+        margin-top:18vh;
+    }
+    #ferro{
+        background-size:70%, 110%;
+    }
+    #magnesita{
+        background-size:70%, 110%;
+    }
+    #carvao{
+        background-size:65%, 110%;
+    }
+    #manganes{
+        background-size:65%, 110%;
+        
+    }
+    .tudohist{
+
+        background-position:center;
+        background-size:cover;
+        background-repeat:repeat;
+        padding:10px;
+        height:55vh;
+    }
+    .historia{
+        display:flex; 
+        justify-content:space-around;
+        height:55vh;
+        padding:20px;
+        gap:20px;
+    }
+    .tudohist #picareta{
+        height:20px;
+        width:20px;
+    }
+    .tudohist #titulo h1{
+        font-size:20px;
+    }
+    .tudohist #titulo{
+        height:48px;
+        border-radius:10px;
+    }
+    .historia #texto{
+        margin-top:100px;
+        margin-right:12%;
+        font-size:16px;
+        height:23vh;
+        width:45%;
+    }
+    .historia #foto{
+        margin-top:100px;
+        margin-left:0;
+        height:20vh;
+    }
+     #botao2{
+        margin-left:0;
+        margin-top:29%;
+        margin-bottom:55%;
+        margin-right:10%;
+        width:120px;
+        height:32px;
+    }
+    .meio{
+        display:flex;
+        justify-content:center;
+    }
+    .contato #backtitulo{
+        display:flex;
+        background-color:#00BF63;
+        height:64px;
+        padding:10px;
+        gap:10px;
+        border-radius:10px;
+        border:black 4px solid;
+        margin:20px;
+    }
+    .contato #carrinho{
+        width:32px;
+        height:32px;
+    }
+    .contato #titulo{
+        color:white;
+        font-weight:bold;
+    }
+    .contato .topo2{
+        display:flex;
+        justify-content:space-around;
+        background-color:#8D8C8C;
+        opacity:80%;
+    }
+    .contato #logo{
+        width:300px;  
+    }
+    .contato{
+        height:60vh;
+        background-image:url(imgmineracao/contato.jpg);
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+    .meio #aviso{
+        text-align:center;
+        width:100%;
+        background-color:#8D8C8C;
+        opacity:80%;
+        padding:90px;
+        height:40vh;
+    }
+    .meio #aviso em{
+        font-size:50px;
+        text-decoration:underline dashed 4px black;
+        font-weight:bold;
+    }
+    .meio #aviso h2{
+        margin-top:10px;
+        font-size:40px;
+        color:white;
+    }
+    .meio #aviso strong{
+        color:#006032;
+        text-decoration:underline;
+    }
+    .rodape{
+        width:100%;
+        height:15vh;
+        background-color:#00BF63;
+        border-top:#006032 10px solid;
+        padding:10px;
+    }
+    #titulorodape{
+        background-color:#006032;
+        font-size:40px;
+        font-weight:bold;
+        color:white;
+        border-top:2px black solid;
+        text-align:center;
+    }
+    .icones{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .rodape #icone1{
+        background-image:url(imgmineracao/GMAIL.png);
+        background-size:80%;
+        background-position:center;
+        background-repeat:no-repeat;
+        width:10vw;
+        height:10vh;
+        border-radius:100%;
+        background-color:#006032;
+    }
+    .rodape #icone2{
+        background-image:url(imgmineracao/TELEFONE.webp);
+        background-size:80%;
+        background-position:center;
+        background-repeat:no-repeat;
+        width:10vw;
+        height:10vh;
+        border-radius:100%;
+        background-color:#006032;
+    }
+    .rodape #icone3{
+        background-image:url(imgmineracao/instagram.webp);
+        background-size:80%;
+        background-position:center;
+        background-repeat:no-repeat;
+        width:10vw;
+        height:10vh;
+        border-radius:100%;
+        background-color:#006032;
+    }
+    .rodape #icone4{
+        background-image:url(imgmineracao/WhatsApp.svg.webp);
+        background-size:80%;
+        background-position:center;
+        background-repeat:no-repeat;
+        width:10vw;
+        height:10vh;
+        border-radius:100%;
+        background-color:#006032;
+    }
+    .rodape .rodanome{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        font-size:12px;
+    }
+    #gmail{
+        margin-left:0%;
+    }
+    #telefone{
+        margin-left:3%;
+    }
+    #instagram{
+        margin-left:1%;
+    }
+}
+/*Responsividade do Tablet (768px)*/
+@media(width<=768px){
+    .inicio{
+        height:56vh;
+        background-image:url(imgmineracao/billy-freeman-tWptj-b6IqM-unsplash\ \(1\).jpg);
+        background-size:cover;
+        background-position:left;
+        background-repeat:no-repeat;
+        border-bottom:black solid 10px;
+}
+.topo{
+        width:100vw;
+        opacity:90%;
+        height:8vh;
+}
+.topo .menu{
+        width:70vw;
+}
+.topo img{
+        width:18vw;
+        margin:5px;
+        margin-top:20px;   
+}
+.topo .nome h1{
+    font-size:28px;
+}
+.topo .nome h1:hover{
+    padding:5px;
+    border-radius:10%;
+    font-size:22px;
+}
+.inicio #chamada{
+    display:flex;
+}
+.inicio #chamada h1{
+    margin-top:18%;
+    font-size:28px;
+    width:45vw;
+    color:white;
+}
+#botao{
+    padding:5px;
+    border-radius:10px;
+    margin-top:22%;
+    margin-right:5%;
+    margin-left:10vh;
+}
+#botao a{
+    font-size:20px;
+}
+.minerios{
+    height:65vh;
+    width:100vw;
+}
+.minerios .conteudo{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+.minerios .esmeraldas{
+    width:32px;
+    height:32px;
+}
+.minerios #titulo{
+    display:flex;
+    width:227px;
+}
+.minerios #titulo h1{
+    color:#006032;
+    font-weight:bold;
+    font-size:32px;
+}
+.minerios .conteudo article{
+    width:22%;
+    height:16vh;
+    margin-left:80px;
+    margin-right:80px;
+}
+.minerios .conteudo article button a{
+    font-size:20px;
+}
+.minerios .conteudo article button{ 
+    margin-top:18vh;
+}
+#ferro{
+    background-size:70%, 110%;
+}
+#magnesita{
+    background-size:70%, 110%;
+}
+#carvao{
+    background-size:65%, 110%;
+}
+#manganes{
+    background-size:65%, 110%;
+    
+}
+.tudohist{
+
+    background-position:center;
+    background-size:cover;
+    background-repeat:repeat;
+    padding:10px;
+    height:55vh;
+}
+.historia{
+    display:flex; 
+    justify-content:space-around;
+    height:55vh;
+    padding:20px;
+    gap:20px;
+}
+.tudohist #picareta{
+    height:20px;
+    width:20px;
+}
+.tudohist #titulo h1{
+    font-size:20px;
+}
+.tudohist #titulo{
+    height:48px;
+    border-radius:10px;
+    width:120px;
+}
+.historia #texto{
+    margin-top:100px;
+    margin-right:12%;
+    font-size:12px;
+    height:31vh;
+    width:45vw;
+}
+.historia #foto{
+    margin-top:100px;
+    margin-left:0;
+    height:20vh;
+}
+ #botao2{
+    margin-left:0;
+    margin-top:50%;
+    margin-bottom:0px;
+    margin-right:0%;
+    width:180px;
+    height:38px;
+}
+.meio{
+    display:flex;
+    justify-content:center;
+}
+.contato #backtitulo{
+    display:flex;
+    background-color:#00BF63;
+    height:64px;
+    padding:10px;
+    gap:10px;
+    border-radius:10px;
+    border:black 4px solid;
+    margin:20px;
+}
+.contato #carrinho{
+    width:32px;
+    height:32px;
+}
+.contato #titulo{
+    color:white;
+    font-weight:bold;
+}
+.contato .topo2{
+    display:flex;
+    justify-content:space-between;
+    background-color:#8D8C8C;
+    opacity:80%;
+}
+.contato #logo{
+    width:300px;  
+}
+.contato{
+    height:60vh;
+    background-image:url(imgmineracao/contato.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.meio #aviso{
+    text-align:center;
+    width:100%;
+    background-color:#8D8C8C;
+    opacity:80%;
+    padding:90px;
+    height:40vh;
+}
+.meio #aviso em{
+    font-size:50px;
+    text-decoration:underline dashed 4px black;
+    font-weight:bold;
+}
+.meio #aviso h2{
+    margin-top:10px;
+    font-size:40px;
+    color:white;
+}
+.meio #aviso strong{
+    color:#006032;
+    text-decoration:underline;
+}
+.rodape{
+    width:100%;
+    height:220px;
+    background-color:#00BF63;
+    border-top:#006032 10px solid;
+    padding:10px;
+}
+#titulorodape{
+    background-color:#006032;
+    font-size:40px;
+    font-weight:bold;
+    color:white;
+    border-top:2px black solid;
+    text-align:center;
+}
+.icones{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.rodape #icone1{
+    background-image:url(imgmineracao/GMAIL.png);
+    background-size:80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:12vw;
+    height:12vh;
+    border-radius:100%;
+    background-color:#006032;
+}
+.rodape #icone2{
+    background-image:url(imgmineracao/TELEFONE.webp);
+    background-size:80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:12vw;
+    height:12vh;
+    border-radius:100%;
+    background-color:#006032;
+}
+.rodape #icone3{
+    background-image:url(imgmineracao/instagram.webp);
+    background-size:80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:12vw;
+    height:12vh;
+    border-radius:100%;
+    background-color:#006032;
+}
+.rodape #icone4{
+    background-image:url(imgmineracao/WhatsApp.svg.webp);
+    background-size:80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:12vw;
+    height:12vh;
+    border-radius:100%;
+    background-color:#006032;
+}
+.rodape .rodanome{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.rodape .rodanome h1:hover{
+    color:white;
+    text-decoration:underline #8D8C8C solid;
+}
+#gmail{
+    margin-left:3%;
+}
+#telefone{
+    margin-left:5%;
+}
+#instagram{
+    margin-left:1%;
+}
+
+}
+/*Responsividade do Mobile L (425px)*/
+@media(width<=425px){
+    .inicio{
+        height:30vh;
+        background-image:url(imgmineracao/billy-freeman-tWptj-b6IqM-unsplash\ \(1\).jpg);
+        background-size:cover;
+        background-position:left;
+        background-repeat:no-repeat;
+        border-bottom:black solid 10px;
+}
+.topo{
+        width:100vw;
+        opacity:90%;
+        height:4vh;
+}
+.topo .menu{
+        width:20vw;
+}
+.topo img{
+        width:8vw;
+        margin-top:10px;  
+}
+.topo .nome h1{
+    font-size:10px;
+}
+.topo .nome h1:hover{
+    padding:5px;
+    border-radius:10%;
+    font-size:22px;
+}
+.inicio #chamada{
+    display:flex;
+    width:60vw;
+    margin-top:32%;
+}
+.inicio #chamada h1{
+    margin-top:18%;
+    font-size:12px;
+    width:45vw;
+    color:white;
+}
+#botao{
+    padding:5px;
+    border-radius:10px;
+    margin:0;
+    margin-top:25%;
+}
+#botao a{
+    font-size:10px;
+}
+.minerios{
+    height:45vh;
+    width:60vw;
+}
+.minerios .conteudo{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+.minerios .esmeraldas{
+    width:10px;
+    height:10px;
+}
+.minerios #titulo{
+    display:flex;
+    width:75px;
+    border:2px black solid;
+}
+.minerios #titulo h1{
+    color:#006032;
+    font-weight:bold;
+    font-size:10px;
+}
+.minerios .conteudo article{
+    width:20%;
+    height:5vh;
+    margin-right:30px;
+    margin-left:0px;
+    border:2px solid black;
+}
+.minerios .conteudo article button a{
+    font-size:10px;
+}
+.minerios .conteudo article button{ 
+    margin-top:5vh;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:0;
+}
+#ferro{
+    background-size:70%, 110%;
+}
+#magnesita{
+    background-size:70%, 110%;
+}
+#carvao{
+    background-size:65%, 110%;
+}
+#manganes{
+    background-size:65%, 110%;
+    
+}
+.tudohist{
+
+    background-position:center;
+    background-size:cover;
+    background-repeat:repeat;
+    padding:10px;
+    height:55vh;
+}
+.historia{
+    display:flex; 
+    justify-content:space-around;
+    height:55vh;
+    padding:20px;
+    gap:20px;
+}
+.tudohist #picareta{
+    height:20px;
+    width:20px;
+}
+.tudohist #titulo h1{
+    font-size:20px;
+}
+.tudohist #titulo{
+    height:48px;
+    border-radius:10px;
+    width:120px;
+}
+.historia #texto{
+    margin-top:100px;
+    margin-right:12%;
+    font-size:5px;
+    height:21vh;
+    width:25vw;
+}
+.historia #foto{
+    margin-top:0px;
+    margin-left:0;
+    height:10vh;
+    border:5px solid #006032;
+}
+ #botao2{
+    margin-left:0;
+    margin-top:50%;
+    margin-bottom:0px;
+    margin-right:0%;
+    width:180px;
+    height:38px;
+}
+.meio{
+    display:flex;
+    justify-content:center;
+}
+.contato #backtitulo{
+    display:flex;
+    background-color:#00BF63;
+    height:64px;
+    padding:10px;
+    gap:10px;
+    border-radius:10px;
+    border:black 4px solid;
+    margin:20px;
+}
+.contato #carrinho{
+    width:32px;
+    height:32px;
+}
+.contato #titulo{
+    color:white;
+    font-weight:bold;
+}
+.contato .topo2{
+    display:flex;
+    justify-content:space-between;
+    background-color:#8D8C8C;
+    opacity:80%;
+}
+.contato #logo{
+    width:300px;  
+}
+.contato{
+    height:60vh;
+    background-image:url(imgmineracao/contato.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.meio #aviso{
+    text-align:center;
+    width:100%;
+    background-color:#8D8C8C;
+    opacity:80%;
+    padding:90px;
+    height:40vh;
+    margin-left:0;
+}
+.meio #aviso em{
+    font-size:15px;
+    text-decoration:underline dashed 4px black;
+    font-weight:bold;
+}
+.meio #aviso h2{
+    margin-top:10px;
+    font-size:10px;
+    color:white;
+}
+.meio #aviso strong{
+    color:#006032;
+    text-decoration:underline;
+}
+.rodape{
+    width:100%;
+    height:220px;
+    background-color:#00BF63;
+    border-top:#006032 10px solid;
+    padding:10px;
+}
+#titulorodape{
+    background-color:#006032;
+    font-size:40px;
+    font-weight:bold;
+    color:white;
+    border-top:2px black solid;
+    text-align:center;
+}
+.icones{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.rodape #icone1{
+    background-image:url(imgmineracao/GMAIL.png);
+    background-size:80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:12vw;
+    height:12vh;
+    border-radius:100%;
+    background-color:#006032;
+}
+.rodape #icone2{
+    background-image:url(imgmineracao/TELEFONE.webp);
+    background-size:80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:12vw;
+    height:12vh;
+    border-radius:100%;
+    background-color:#006032;
+}
+.rodape #icone3{
+    background-image:url(imgmineracao/instagram.webp);
+    background-size:80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:12vw;
+    height:12vh;
+    border-radius:100%;
+    background-color:#006032;
+}
+.rodape #icone4{
+    background-image:url(imgmineracao/WhatsApp.svg.webp);
+    background-size:80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:12vw;
+    height:12vh;
+    border-radius:100%;
+    background-color:#006032;
+}
+.rodape .rodanome{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.rodape .rodanome h1:hover{
+    color:white;
+    text-decoration:underline #8D8C8C solid;
+}
+#gmail{
+    margin-left:3%;
+}
+#telefone{
+    margin-left:5%;
+}
+#instagram{
+    margin-left:1%;
+}
+
+}
